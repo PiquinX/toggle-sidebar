@@ -1,6 +1,25 @@
-# A toggle-navbar component for React!
+<h1>Toggle-navbar</h1>
 
-## A React toggle-navbar component for creating amazing responsive designs.
+
+### Installation
+
+Using npm.
+```CMD
+npm install toggle-nav
+```
+
+Using yarn.
+```CMD
+yarn add toggle-nav
+ ```
+
+#### How to import.
+
+```typescript 
+import { SideBarContainer, SideBar, CloseButton } from 'toggle-navbar'
+```
+
+#### How to use it.
 
 This component allows you to create a customizable desplegable navbar, which is great for responsive designs.
 

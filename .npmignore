@@ -2,3 +2,4 @@ src
 index.html
 .swcrc
 vite.config.js
+.npmcr
