@@ -1,9 +1,9 @@
-<div class='flex justify-between'>
+<div style='display: flex; justify-content:space-between' >
   <h1>Toggle-navbar</h1>
   <a href='https://github.com/PiquinX/toggle-sidebar' >
     <img 
-      style='width: "100px"; height:100px' 
-      src='./public/GitHub-Logo.png' 
+      style='width: "90px"; height:90px' 
+      src='https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png' 
     />
   </a>
 </div>
