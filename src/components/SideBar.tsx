@@ -9,7 +9,7 @@ interface Props {
 }
 
 const SideBar: React.FC<Props> = ({
-  children, navClass = 'bg-white', buttonContent, buttonClass, side = 'right'
+  children, navClass = 'bg-white min-w-[400px]', buttonContent, buttonClass, side = 'right'
 }) => {
   // This customs hook allows us to make a side navBar but we must use the attribute data-side-bar.
   const { show, handleShow, sideBarData, disapear } = useSideBar()
@@ -42,7 +42,7 @@ const SideBar: React.FC<Props> = ({
               ${navClass} 
               ${disapear ? disappearAnimation : appearAnimation} 
               ${side === 'left' ? 'order-first' : ''}
-              min-w-[400px] z-[500] flex flex-col h-full overflow-hidden`
+              z-[500] flex flex-col h-full overflow-hidden`
             }
           >
             {children}

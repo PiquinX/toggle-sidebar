@@ -1,4 +1,4 @@
-import React, { createContext, useEffect, useState } from 'react'
+import React, { createContext, useEffect, useRef, useState } from 'react'
 import { type SideBarType } from '../definitions'
 
 const initialValue = false
@@ -21,6 +21,7 @@ export const SideBarProvider: React.FC<Props> = ({
 }) => {
   const [show, setShow] = useState<boolean>(false)
   const [disapear, setDisappear] = useState<boolean>(false)
+  const isFirstTime = useRef<boolean[]>([true, true])
 
   const handleShow = (): void => { setShow(true) }
 
@@ -34,11 +35,15 @@ export const SideBarProvider: React.FC<Props> = ({
   }
 
   useEffect(() => {
-    handleClose()
+    if (isFirstTime.current[0]) {
+      isFirstTime.current[0] = false
+    } else handleClose()
   }, closeDependency)
 
   useEffect(() => {
-    handleShow()
+    if (isFirstTime.current[1]) {
+      isFirstTime.current[1] = false
+    } else handleShow()
   }, openDependency)
 
   return (
