@@ -1,4 +1,12 @@
-<h1>Toggle-navbar</h1>
+<div class='flex justify-between'>
+  <h1>Toggle-navbar</h1>
+  <a href='https://github.com/PiquinX/toggle-sidebar' >
+    <img 
+      style='width: "100px"; height:100px' 
+      src='./public/GitHub-Logo.png' 
+    />
+  </a>
+</div>
 
 
 ### Installation
@@ -79,3 +87,6 @@ export default Root
 ```
 
 
+##### Here is the Link to the Github repo. 
+
+https://github.com/PiquinX/toggle-sidebar
