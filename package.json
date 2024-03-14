@@ -1,11 +1,16 @@
 {
   "name": "toggle-navbar",
-  "version": "0.0.28",
+  "version": "0.0.29",
   "description": "A React toggle-navbar component for creating amazing responsive designs.",
   "type": "module",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PiquinX/toggle-sidebar"
+  },
+  "keywords": ["React", "toggle", "navbar", "toggle-navbar", "design", "animation", "front-end"],
   "files": [
     "dist"
   ],
