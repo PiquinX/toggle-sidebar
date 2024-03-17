@@ -23,7 +23,7 @@ const SideBar: React.FC<Props> = ({
 
   return (
     <>
-      <button onClick={handleClick} className={`${buttonClass} z-50 text-black cursor-pointer`}>
+      <button onClick={handleClick} className={`${buttonClass} z-50 cursor-pointer`}>
         {buttonContent}
       </button>
       {
