@@ -1,11 +1,12 @@
 {
   "name": "toggle-navbar",
-  "version": "0.0.30",
+  "version": "0.0.31",
   "description": "A React toggle-navbar component for creating amazing responsive designs.",
   "type": "module",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/index.d.ts",
+  "homepage": "https://sidebar-page.vercel.app/",
   "repository": {
     "type": "git",
     "url": "https://github.com/PiquinX/toggle-sidebar"
