@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react'
 
-const useResponsive = (screenWidth: number): { isBigScreen: boolean } => {
-  const [isBigScreen, setIsBigScreen] = useState(() => {
-    return window.innerWidth > screenWidth
-  })
+const useResponsive = (screenWidth: number = 1024): { isBigScreen: boolean } => {
+  const [isBigScreen, setIsBigScreen] = useState(
+    () => window.innerWidth > screenWidth
+  )
 
   useEffect(() => {
     addEventListener('resize', handleResize)

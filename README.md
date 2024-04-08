@@ -1,7 +1,7 @@
 
 <h1>Toggle-navbar</h1>
 
-https://github.com/PiquinX/toggle-sidebar
+https://sidebar-page.vercel.app/
 
 
 ### Installation
@@ -82,6 +82,6 @@ export default Root
 ```
 
 
-##### Here is the Link to the Github repo. 
+##### If you need further assistance go check the documentation 
 
-https://github.com/PiquinX/toggle-sidebar
+https://sidebar-page.vercel.app/docs/get-started
